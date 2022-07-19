@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function Meme() {
+    
     return (
         <main>
             <form className="form">
@@ -16,6 +17,7 @@ export default function Meme() {
                 />
                 <button 
                     className="form--button"
+                    
                 >
                     Get a new meme image 🖼
                 </button>
