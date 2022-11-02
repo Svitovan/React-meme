@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Header from './Components/Header';
 import Meme from './Components/Meme';
 // import data from './data';

@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Karla", sans-serif;
+    font-family: Consolas, "Karla", sans-serif;
     margin: 0;
 }
 
@@ -16,7 +16,7 @@ main {
     align-items: center;
     height: 65px;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -56,4 +56,14 @@ main {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.meme--image--div {
+    display: flex;
+    justify-content: center;
+}
+.meme--image {
+    margin: 25px;
+    max-width: 100%;
+    
 }
